@@ -1,4 +1,4 @@
-function palindrome(text) {
+function palindrom(text) {
     text = text.toLowerCase()
     str = ''
     array = text.split('')
@@ -12,5 +12,5 @@ function palindrome(text) {
     }
 }
 
-palindrome('Malam')
-palindrome('Ibu')
+palindrom('Malam')
+palindrom('Ibu')
