@@ -14,10 +14,10 @@ let data = {
 }
 
 data.name = 'Anka Abdullah'
+data.email = 'ankaabdullah.id@gmail.com'
 data.hobby = ['ngoding', 'traveling', 'hiking']
 
-const {street} = data.address
-const {city}= data.address
+const {street,city} = data.address
 
 console.log(street)
 console.log(city)
