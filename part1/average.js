@@ -18,4 +18,9 @@ function rataRataUn(mtk, indo, inggris, ipa) {
     }
 }
 
-rataRataUn(80, 90, 89, 69)
+const matematika = 80
+const bahasaIndonesia = 90 
+const bahasaInggris = 89
+const ipa = 69
+
+rataRataUn(matematika, bahasaIndonesia, bahasaInggris, ipa)
