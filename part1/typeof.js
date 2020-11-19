@@ -40,4 +40,4 @@ const biodata = {
         }
     ],
     interestInCoding: true
-},
+}
