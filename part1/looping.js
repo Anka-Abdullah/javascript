@@ -1,8 +1,8 @@
 function printSegitiga(numb) {
     if (typeof numb == 'number') {
         str = ''
-        for (i = 1; i <= numb; i++) {
-            for (j = i; j <= numb; j++) {
+        for (i = numb; i >=0; i--) {
+            for (j = 1; j <= i; j++) {
                 str += j
             }
             str += '\n'
