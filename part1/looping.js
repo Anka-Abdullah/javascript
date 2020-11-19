@@ -13,5 +13,5 @@ function printSegitiga(numb) {
     }
 }
 
-printSegitiga(5)
+printSegitiga(8)
 printSegitiga('enam')
