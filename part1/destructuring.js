@@ -13,13 +13,16 @@ let data = {
     website: "hildegard.org",
 }
 
-data.name = 'Anka Abdullah'
-data.email = 'ankaabdullah.id@gmail.com'
-data.hobby = ['ngoding', 'traveling', 'hiking']
+let newData = {
+    ...data,
+    name: 'Anka Abdullah',
+    email: 'ankaabdullah.id@gmail.com',
+    hobby: ['ngoding', 'traveling', 'hiking']
+}
 
 const {street,city} = data.address
 
 console.log(street)
 console.log(city)
 
-console.log(data)
+console.log(newData)
