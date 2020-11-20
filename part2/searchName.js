@@ -22,7 +22,6 @@ function fungsi(numb, newArray) {
     output = []
     for (i=0; i< numb; i++){
         output.push(newArray[i])
-        // newStr += newArray[i] + '  '
     }
     console.log(output)
 }
