@@ -17,5 +17,5 @@ function searchNumb(first, last, array){
         }
     }
 }
-searchNumb(5, 20, [2, 25, 4, 14, 17, 30, 8])
+searchNumb(20, 20, [2, 25, 4, 14, 17, 30, 8])
 // searchNumb(18, 20, [2, 16, 4, 14, 17, 13, 8])

@@ -32,5 +32,5 @@ function fungsi(numb, newArray) {
     }  
 }
 
-searchName("an", 3, fungsi);
+searchName("El", 5, fungsi);
 
