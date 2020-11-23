@@ -41,7 +41,7 @@ const number = 145.7875252378
 const newNumber = number.toFixed(1)
 console.log(`8. ${newNumber}\n`)
 
-//9 mereturn array yang diisi dengan semua elemen array yang lulus tes (disediakan sebagai fungsi)
+//9 filter mereturn array yang diisi dengan semua elemen array yang lulus tes (disediakan sebagai fungsi)
 const ages = [32, 33, 16, 40];
 function checkAdult(age) {
     return age >= 18;
@@ -49,7 +49,7 @@ function checkAdult(age) {
 const check = ages.filter(checkAdult)
 console.log(`9. ${check}\n`)
 
-//10. mereturn array baru dengan hasil pemanggilan fungsi untuk setiap elemen array
+//10. map mereturn array baru dengan hasil pemanggilan fungsi untuk setiap elemen array
 const numbers = [65, 44, 12, 4];
 const newArr = numbers.map(myFunction)
 function myFunction(num) {
