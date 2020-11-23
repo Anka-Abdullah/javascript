@@ -24,7 +24,9 @@ function fungsi(numb, newArray) {
     }else{
         output = []
         for (i = 0; i < numb; i++) {
+            if (newArray[i] != undefined){
             output.push(newArray[i])
+            }
         }
         console.log(output)
     }  
