@@ -19,11 +19,15 @@ function searchName(str, numb, callback) {
 }
 
 function fungsi(numb, newArray) {
-    output = []
-    for (i=0; i< numb; i++){
-        output.push(newArray[i])
-    }
-    console.log(output)
+    if (numb <=0){
+        console.log('angka yang di input salah!')
+    }else{
+        output = []
+        for (i = 0; i < numb; i++) {
+            output.push(newArray[i])
+        }
+        console.log(output)
+    }  
 }
 
 searchName("an", 3, fungsi);

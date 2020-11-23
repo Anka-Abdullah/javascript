@@ -16,7 +16,6 @@ function searchNumb(first, last, array){
             console.log(str)
         }
     }
-    
 }
 searchNumb(5, 20, [2, 25, 4, 14, 17, 30, 8])
 // searchNumb(18, 20, [2, 16, 4, 14, 17, 13, 8])
