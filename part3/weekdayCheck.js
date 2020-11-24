@@ -23,6 +23,8 @@ const dayList = [
   "sabtu",
   "minggu",
 ];
+
+//try catch digunakan untuk mengatasi error handling pada async await
 async function dayCheck(day) {
   let correct = dayList.find((item) => {
     return item === day.toLowerCase();
@@ -40,6 +42,7 @@ async function dayCheck(day) {
 }
 dayCheck("MinggU");
 
+//then catch digunakan untuk menghandle output yang dihasilan oleh promise
 const hari = "senin";
 cekHariKerja(hari)
   .then((res) => {
