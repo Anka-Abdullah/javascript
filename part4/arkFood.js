@@ -1,9 +1,9 @@
-const kodePromo = ["arkafood5", "ditraktirdemy"];
-
 function arkFood(harga, voucher, jarak, pajak) {
   voucher = voucher.toLowerCase();
   const ongkir = 5000 + (jarak - 2) * 3000;
   pajak = pajak === true ? (5 / 100) * harga : 0;
+  const kodePromo = ["arkafood5", "ditraktirdemy"];
+  let potongan = 0;
 
   if (
     kodePromo.find((item) => {
@@ -24,8 +24,6 @@ function arkFood(harga, voucher, jarak, pajak) {
         potongan = (harga * 60) / 100;
       }
     }
-  } else {
-    potongan = 0;
   }
   const total = harga - potongan + ongkir + pajak;
 
