@@ -1,7 +1,7 @@
 function arkFood(harga, voucher, jarak, pajak) {
   voucher = voucher.toLowerCase();
   const ongkir = jarak >= 2? (5000 + (jarak - 2) * 3000) : 5000;
-  const task = pajak === true ? (5 / 100) * harga : 0;
+  const tax = pajak === true ? (5 / 100) * harga : 0;
   const kodePromo = ["arkafood5", "ditraktirdemy"];
   let potongan = 0;
 
@@ -25,13 +25,13 @@ function arkFood(harga, voucher, jarak, pajak) {
       }
     }
   }
-  const total = harga - potongan + ongkir + task;
+  const total = harga - potongan + ongkir + tax;
 
   console.log(`
   Output : Harga : ${harga}
            Potongan : ${potongan}
            Biaya Antar : ${ongkir}
-           Pajak : ${task}
+           Pajak : ${tax}
            Subtotal : ${total}
            `);
 }
