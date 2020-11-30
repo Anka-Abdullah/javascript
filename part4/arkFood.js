@@ -1,5 +1,5 @@
 function arkFood(harga, voucher, jarak, pajak) {
-  voucher = voucher.toLowerCase();
+  voucher = voucher.toString().toLowerCase();
   const ongkir = jarak >= 2? (5000 + (jarak - 2) * 3000) : 5000;
   const tax = pajak === true ? (5 / 100) * harga : 0;
   const kodePromo = ["arkafood5", "ditraktirdemy"];
@@ -36,4 +36,4 @@ function arkFood(harga, voucher, jarak, pajak) {
            `);
 }
 
-arkFood(75000, "ARKAFOOD5", 1, true);
+arkFood(75000, 'ARKAFOOD5', 1, true);
